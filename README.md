@@ -42,7 +42,7 @@ python script.py <source> [-d <destination>] [-w <workers>]
 
 3. **`-w` ou `--workers`** (optionnel) :
    - Nombre de cœurs CPU à utiliser pour paralléliser le traitement.
-   - Par défaut, le script utilise tous les cœurs disponibles moins un.
+   - Par défaut, le script utilise un seul cœur. Mettre 0 pour utiliser tous les coeurs.
    - Exemple :
      ```bash
      python script.py /path/to/audio/files -w 4
